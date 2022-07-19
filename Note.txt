@@ -1,0 +1,16 @@
+Negative Margin: We know that vertical margin does't work on inline elements. But there is an exception -- There are two types of inline
+                elements - replaced inline elements and non-replaced inline elements.
+
+                Replaced Elements: In CSS, a replaced element is an element whose representation is outside the scope of CSS; 
+                they're external objects whose representation is independent of the CSS formatting model.
+
+                Put in simpler terms, they're elements whose contents are not affected by the current document's styles.
+                The position of the replaced element can be affected using CSS, but not the contents of the replaced element itself.
+
+                e.g: <img>, <video>, <iframe> etc.
+                image is a replaced element because the element is replaced the image itself. it links to another page and retrieves 
+                contents from there. For such inline element, vertical margin can be applied -- postive, Negative margins.
+                where postive margin push him down and Negative margin push him up!
+
+
+                Non-replaced Elements: eg- <a> tag etc. for which any type of margin does't work!
